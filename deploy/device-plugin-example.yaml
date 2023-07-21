@@ -77,6 +77,7 @@ spec:
       serviceAccount: device-plugin-example
       containers:
         - image: lleiiell/k8s-device-plugin-example:v0.1
+#          imagePullPolicy: IfNotPresent
           imagePullPolicy: Always
           args:
             - k8s-device-plugin-example

@@ -30,10 +30,6 @@ type DevicePlugin struct {
 // NewDevicePlugin returns an initialized DevicePlugin
 func NewDevicePlugin() (*DevicePlugin, error) {
 	devs := getDevices()
-	// err := patchDeviceCount(len(devs))
-	// if err != nil {
-	// 	return nil, err
-	// }
 
 	return &DevicePlugin{
 		devs:   devs,

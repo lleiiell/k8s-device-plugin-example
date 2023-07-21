@@ -1,6 +1,6 @@
 # k8s-device-plugin-example
 
-This repo is an example for Kubernetes device plugin.
+This repo is a minimal example for Kubernetes device plugin.
 
 ## Deploy
 
@@ -13,10 +13,8 @@ Then describe worker nodes.
 ```bash
 Capacity:
   example.com/device:        2
-  example.com/device-count:  2
 Allocatable:
   example.com/device:        2
-  example.com/device-count:  2
 ```
 
 ## Test
